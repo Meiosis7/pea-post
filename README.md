@@ -10,6 +10,10 @@
 
 ## 直接游玩
 
+**在线开始：<https://meiosis7.github.io/pea-post/>**
+
+原网页版：<https://meiosis7.github.io/pea-post/web/>
+
 下载仓库后，用现代浏览器打开以下文件：
 
 - **最新版 App**：[豌豆邮局App-离线版.html](app/豌豆邮局App-离线版.html)。图片、样式和游戏逻辑均已嵌入，无需联网。
@@ -75,3 +79,9 @@ App 中的位图插画由 AI 生成，相关素材说明位于 `app/assets/gener
 ## 验证记录
 
 本版本已完成 36 项模型与存档测试、16 封来信全流程、手机布局检查、离线打开、连续授粉与启动加载失败恢复测试。
+
+## 自动部署
+
+推送到 `main` 后，GitHub Actions 会验证遗传模型与存档，构建 App，然后部署到 GitHub Pages。最新 App 位于站点首页，原网页版保留在 `/web/`。
+
+`npm run build:pages` 可以在本机构建同样的 `_site/` 发布目录。

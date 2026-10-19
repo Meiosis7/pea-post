@@ -1,0 +1,14 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const {execFileSync} = require('node:child_process');
+const root = path.join(__dirname, '..');
+const site = path.join(root, '_site');
+fs.rmSync(site, {recursive: true, force: true});
+fs.mkdirSync(site, {recursive: true});
+fs.cpSync(path.join(root, 'app'), site, {recursive: true});
+fs.mkdirSync(path.join(site, 'web'));
+fs.copyFileSync(path.join(root, 'dist/index.html'), path.join(site, 'web/index.html'));
+fs.writeFileSync(path.join(site, '.nojekyll'), '');
+const revision = process.env.GITHUB_SHA || execFileSync('git', ['rev-parse', 'HEAD'], {cwd: root, encoding: 'utf8'}).trim();
+fs.writeFileSync(path.join(site, 'version.json'), JSON.stringify({revision, entry: 'index.html'}, null, 2) + '\n');
+console.log('Pages site ready: App at /, original web at /web/');
