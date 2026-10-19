@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" fill="none"><defs>
+<linearGradient id="glass" x2="0" y2="1"><stop stop-color="#e4ead7"/><stop offset="1" stop-color="#f6f0dc"/></linearGradient>
+<linearGradient id="pot" x2="1" y2="0"><stop stop-color="#c77b51"/><stop offset=".55" stop-color="#dfa477"/><stop offset="1" stop-color="#b36b49"/></linearGradient>
+<linearGradient id="leaf" x2="1" y2="1"><stop stop-color="#789667"/><stop offset="1" stop-color="#496c51"/></linearGradient>
+<pattern id="grain" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".6" fill="#254734" opacity=".13"/><circle cx="7" cy="8" r=".5" fill="#254734" opacity=".10"/></pattern>
+<g id="leaflet"><path d="M0 0C-9-35-39-47-56-36C-53-12-27 3 0 0Z" fill="url(#leaf)" stroke="#365843" stroke-width="1.4"/><path d="M-2-1L-44-30M-13-9L-29-10M-23-17L-27-29M-31-23L-43-24" stroke="#c7d3ac" stroke-width="1.2"/></g>
+<g id="flower"><path d="M0 2C-24 4-34-14-26-29C-22-40-8-37-1-22C4-42 27-43 30-25C36-5 17 6 0 2Z" fill="#b391be" stroke="#684d78" stroke-width="1.5"/><path d="M-4 1C-23-11-13-20-3-15C3-25 23-16 13-2Z" fill="#d7bfd8" stroke="#765782"/><path d="M-5 1Q5 13 13-2" fill="#715584"/><path d="M-20-26L-8-13M20-25L7-12" stroke="#e6d6e4" stroke-width="2"/></g>
+<g id="pod"><path d="M0 0C-3 23-28 65-45 72C-57 53-26 10 0 0Z" fill="#87a864" stroke="#365843" stroke-width="1.8"/><path d="M-3 6Q-35 37-43 64" stroke="#cee0a4" stroke-width="1.5"/><path d="M-14 19Q-24 14-28 29M-25 34Q-36 28-38 43M-35 50Q-44 44-45 56" stroke="#567b48" stroke-width="1.2"/></g>
+</defs>
+<!-- A conservatory drawn as a quiet miniature stage. -->
+<ellipse cx="510" cy="607" rx="398" ry="47" fill="#a6a789" opacity=".13"/>
+<g stroke="#81927a" stroke-width="3"><path d="M151 458V188C151 36 350 32 350 188V466Z" fill="url(#glass)"/><path d="M370 468V147C370 4 597 4 597 147V473Z" fill="url(#glass)"/><path d="M616 468V188C616 30 831 42 831 188V458Z" fill="url(#glass)"/></g>
+<g stroke="#a7b099" stroke-width="2"><path d="M169 444V190C169 62 332 57 332 190V446M389 447V149C389 31 578 31 578 149V450M634 448V188C634 60 813 67 813 188V443"/><path d="M250 65V456M484 35V458M724 68V451M152 218H350M370 206H597M616 218H831M152 337H350M370 335H597M616 337H831"/></g>
+<g stroke="#fffbee" stroke-width="9" opacity=".42"><path d="M206 135L180 228M227 124L173 313M442 94L408 205M465 87L402 295M699 127L656 284M719 123L691 218"/></g>
+<path d="M131 464H848L895 499H177Z" fill="#d9c297" stroke="#536345" stroke-width="2"/>
+<path d="M177 499H895V523H178Z" fill="#9c825d" stroke="#536345" stroke-width="2"/>
+<path d="M131 464L177 499V523L131 486Z" fill="#ba9d73" stroke="#536345" stroke-width="2"/>
+<path d="M194 524L212 522V619H194ZM833 524H851V608H833Z" fill="#b69a6f" stroke="#536345" stroke-width="2"/>
+<path d="M211 577H833V590H211Z" fill="#bda379" stroke="#536345" stroke-width="2"/>
+<g stroke="#ac946e" opacity=".7"><path d="M176 478H823M234 489H862M330 471H662M228 507H555M594 510H858M201 531V566M841 536V570"/></g>
+<!-- Warm glass pendant lights. -->
+<g stroke="#5a6950" stroke-width="2"><path d="M205 0V103M778 0V111"/><path d="M178 119L190 101H220L233 119Z" fill="#a78b53"/><path d="M178 119H233L223 146H188Z" fill="#f3d9a0"/><path d="M755 126L766 109H791L806 126Z" fill="#a78b53"/><path d="M755 126H806L797 151H764Z" fill="#f3d9a0"/><path d="M195 122L198 141M772 129L775 146" stroke="#fff9de" stroke-width="4"/></g>
+
+<g transform="translate(310 456) scale(1)">
+<ellipse cx="0" cy="22" rx="71" ry="14" fill="#3e543d" opacity=".14"/>
+<path d="M-29 3L-18 -265M36 4L20 -268" stroke="#b39a6a" stroke-width="4"/><path d="M-26-66H32M-23-135H28M-21-207H25" stroke="#c3ad7e" stroke-width="2"/>
+<path d="M0 7C-28-51 17-85-1-136S-25-219 3 -252M-5-21C-44-61-60-112-42-161M1-55C55-97 65-145 43-213" stroke="#426647" stroke-width="4" stroke-linecap="round"/>
+<use href="#leaflet" transform="translate(8 -29.0) rotate(-18) scale(0.74)"/>
+<use href="#leaflet" transform="translate(8 -38.0) rotate(29) scale(-0.74 0.74)"/>
+<use href="#leaflet" transform="translate(-7 -58.14285714285714) rotate(5) scale(0.85)"/>
+<use href="#leaflet" transform="translate(-7 -67.14285714285714) rotate(6) scale(-0.85 0.85)"/>
+<use href="#leaflet" transform="translate(8 -87.28571428571428) rotate(-18) scale(0.96)"/>
+<use href="#leaflet" transform="translate(8 -96.28571428571428) rotate(29) scale(-0.96 0.96)"/>
+<use href="#leaflet" transform="translate(-7 -116.42857142857143) rotate(5) scale(0.74)"/>
+<use href="#leaflet" transform="translate(-7 -125.42857142857143) rotate(6) scale(-0.74 0.74)"/>
+<use href="#leaflet" transform="translate(8 -145.57142857142856) rotate(-18) scale(0.85)"/>
+<use href="#leaflet" transform="translate(8 -154.57142857142856) rotate(29) scale(-0.85 0.85)"/>
+<use href="#leaflet" transform="translate(-7 -174.71428571428572) rotate(5) scale(0.96)"/>
+<use href="#leaflet" transform="translate(-7 -183.71428571428572) rotate(6) scale(-0.96 0.96)"/>
+<use href="#leaflet" transform="translate(8 -203.85714285714286) rotate(-18) scale(0.74)"/>
+<use href="#leaflet" transform="translate(8 -212.85714285714286) rotate(29) scale(-0.74 0.74)"/>
+<use href="#leaflet" transform="translate(-7 -233.0) rotate(5) scale(0.85)"/>
+<use href="#leaflet" transform="translate(-7 -242.0) rotate(6) scale(-0.85 0.85)"/>
+<use href="#leaflet" transform="translate(-33 -69) rotate(-10) scale(.72)"/>
+<use href="#leaflet" transform="translate(-33 -74) rotate(10) scale(-.65 .65)"/>
+<use href="#leaflet" transform="translate(-48 -119) rotate(22) scale(.72)"/>
+<use href="#leaflet" transform="translate(-48 -124) rotate(-22) scale(-.65 .65)"/>
+<use href="#leaflet" transform="translate(-41 -157) rotate(28) scale(.72)"/>
+<use href="#leaflet" transform="translate(-41 -162) rotate(-28) scale(-.65 .65)"/>
+<use href="#leaflet" transform="translate(38 -102) rotate(-25) scale(.72)"/>
+<use href="#leaflet" transform="translate(38 -107) rotate(25) scale(-.65 .65)"/>
+<use href="#leaflet" transform="translate(54 -155) rotate(-8) scale(.72)"/>
+<use href="#leaflet" transform="translate(54 -160) rotate(8) scale(-.65 .65)"/>
+<use href="#leaflet" transform="translate(43 -207) rotate(-4) scale(.72)"/>
+<use href="#leaflet" transform="translate(43 -212) rotate(4) scale(-.65 .65)"/>
+<path d="M2 -243Q30 -290 34 -262Q32 -248 23 -251M-44-154Q-78-196-82-170Q-76-159-69-169M46-209Q80-243 83-221Q80-209 72-216" stroke="#567550" stroke-width="1.5" stroke-linecap="round"/>
+<use href="#flower" transform="translate(-50 -172) rotate(-18) scale(0.66)"/>
+<use href="#flower" transform="translate(40 -227) rotate(20) scale(0.67)"/>
+<use href="#flower" transform="translate(13 -253) rotate(-4) scale(0.64)"/>
+<use href="#pod" transform="translate(-37 -92) rotate(20) scale(.78)"/>
+<use href="#pod" transform="translate(44 -147) rotate(-30) scale(.78)"/>
+<use href="#pod" transform="translate(4 -208) rotate(-8) scale(.78)"/>
+<path d="M-48-6L-37 57Q0 76 37 57L48-6Z" fill="url(#pot)" stroke="#7d6145" stroke-width="2"/><path d="M-53-12Q0-25 53-12L50 3Q0 17-50 3Z" fill="#dca67c" stroke="#7d6145" stroke-width="2"/><ellipse cy="-12" rx="52" ry="10" fill="#655d43" stroke="#7d6145" stroke-width="2"/><path d="M-46-12Q-6-21 44-13" stroke="#ab8e63"/><path d="M-32 14L-27 49M-23 18L-19 55M29 17L24 49" stroke="#f0bf93" stroke-width="2" opacity=".7"/><path d="M-38 30Q0 44 39 28" stroke="#a66d4b" stroke-width="1.2"/><rect x="-15" y="20" width="30" height="26" rx="2" fill="#eee3bc" stroke="#917953"/><path d="M0 40V28M0 34Q-10 35-9 27Q-2 25 0 34M0 31Q9 33 9 25Q1 24 0 31" stroke="#718358" stroke-width="1.3"/></g>
+<g transform="translate(503 470) scale(1.14)">
+<ellipse cx="0" cy="22" rx="71" ry="14" fill="#3e543d" opacity=".14"/>
+<path d="M-29 3L-18 -349M36 4L20 -352" stroke="#b39a6a" stroke-width="4"/><path d="M-26-66H32M-23-135H28M-21-207H25" stroke="#c3ad7e" stroke-width="2"/>
+<path d="M0 7C-28-51 17-85-1-136S-25-219 3 -336M-5-21C-44-61-60-112-42-161M1-55C55-97 65-145 43-213" stroke="#426647" stroke-width="4" stroke-linecap="round"/>
+<use href="#leaflet" transform="translate(8 -29.0) rotate(-14) scale(0.74)"/>
+<use href="#leaflet" transform="translate(8 -38.0) rotate(25) scale(-0.74 0.74)"/>
+<use href="#leaflet" transform="translate(-7 -70.14285714285714) rotate(9) scale(0.85)"/>
+<use href="#leaflet" transform="translate(-7 -79.14285714285714) rotate(2) scale(-0.85 0.85)"/>
+<use href="#leaflet" transform="translate(8 -111.28571428571429) rotate(-14) scale(0.96)"/>
+<use href="#leaflet" transform="translate(8 -120.28571428571429) rotate(25) scale(-0.96 0.96)"/>
+<use href="#leaflet" transform="translate(-7 -152.42857142857144) rotate(9) scale(0.74)"/>
+<use href="#leaflet" transform="translate(-7 -161.42857142857144) rotate(2) scale(-0.74 0.74)"/>
+<use href="#leaflet" transform="translate(8 -193.57142857142858) rotate(-14) scale(0.85)"/>
+<use href="#leaflet" transform="translate(8 -202.57142857142858) rotate(25) scale(-0.85 0.85)"/>
+<use href="#leaflet" transform="translate(-7 -234.71428571428572) rotate(9) scale(0.96)"/>
+<use href="#leaflet" transform="translate(-7 -243.71428571428572) rotate(2) scale(-0.96 0.96)"/>
+<use href="#leaflet" transform="translate(8 -275.8571428571429) rotate(-14) scale(0.74)"/>
+<use href="#leaflet" transform="translate(8 -284.8571428571429) rotate(25) scale(-0.74 0.74)"/>
+<use href="#leaflet" transform="translate(-7 -317.0) rotate(9) scale(0.85)"/>
+<use href="#leaflet" transform="translate(-7 -326.0) rotate(2) scale(-0.85 0.85)"/>
+<use href="#leaflet" transform="translate(-33 -69) rotate(-10) scale(.72)"/>
+<use href="#leaflet" transform="translate(-33 -74) rotate(10) scale(-.65 .65)"/>
+<use href="#leaflet" transform="translate(-48 -119) rotate(22) scale(.72)"/>
+<use href="#leaflet" transform="translate(-48 -124) rotate(-22) scale(-.65 .65)"/>
+<use href="#leaflet" transform="translate(-41 -157) rotate(28) scale(.72)"/>
+<use href="#leaflet" transform="translate(-41 -162) rotate(-28) scale(-.65 .65)"/>
+<use href="#leaflet" transform="translate(38 -102) rotate(-25) scale(.72)"/>
+<use href="#leaflet" transform="translate(38 -107) rotate(25) scale(-.65 .65)"/>
+<use href="#leaflet" transform="translate(54 -155) rotate(-8) scale(.72)"/>
+<use href="#leaflet" transform="translate(54 -160) rotate(8) scale(-.65 .65)"/>
+<use href="#leaflet" transform="translate(43 -207) rotate(-4) scale(.72)"/>
+<use href="#leaflet" transform="translate(43 -212) rotate(4) scale(-.65 .65)"/>
+<path d="M2 -327Q30 -374 34 -346Q32 -332 23 -335M-44-154Q-78-196-82-170Q-76-159-69-169M46-209Q80-243 83-221Q80-209 72-216" stroke="#567550" stroke-width="1.5" stroke-linecap="round"/>
+<use href="#flower" transform="translate(-50 -172) rotate(-18) scale(0.66)"/>
+<use href="#flower" transform="translate(40 -227) rotate(20) scale(0.67)"/>
+<use href="#flower" transform="translate(13 -337) rotate(-4) scale(0.64)"/>
+<use href="#pod" transform="translate(-37 -92) rotate(20) scale(.78)"/>
+<use href="#pod" transform="translate(44 -147) rotate(-30) scale(.78)"/>
+<use href="#pod" transform="translate(4 -208) rotate(-8) scale(.78)"/>
+<path d="M-48-6L-37 57Q0 76 37 57L48-6Z" fill="url(#pot)" stroke="#7d6145" stroke-width="2"/><path d="M-53-12Q0-25 53-12L50 3Q0 17-50 3Z" fill="#dca67c" stroke="#7d6145" stroke-width="2"/><ellipse cy="-12" rx="52" ry="10" fill="#655d43" stroke="#7d6145" stroke-width="2"/><path d="M-46-12Q-6-21 44-13" stroke="#ab8e63"/><path d="M-32 14L-27 49M-23 18L-19 55M29 17L24 49" stroke="#f0bf93" stroke-width="2" opacity=".7"/><path d="M-38 30Q0 44 39 28" stroke="#a66d4b" stroke-width="1.2"/><rect x="-15" y="20" width="30" height="26" rx="2" fill="#eee3bc" stroke="#917953"/><path d="M0 40V28M0 34Q-10 35-9 27Q-2 25 0 34M0 31Q9 33 9 25Q1 24 0 31" stroke="#718358" stroke-width="1.3"/></g>
+<g transform="translate(700 459) scale(0.93)">
+<ellipse cx="0" cy="22" rx="71" ry="14" fill="#3e543d" opacity=".14"/>
+<path d="M-29 3L-18 -290M36 4L20 -293" stroke="#b39a6a" stroke-width="4"/><path d="M-26-66H32M-23-135H28M-21-207H25" stroke="#c3ad7e" stroke-width="2"/>
+<path d="M0 7C-28-51 17-85-1-136S-25-219 3 -277M-5-21C-44-61-60-112-42-161M1-55C55-97 65-145 43-213" stroke="#426647" stroke-width="4" stroke-linecap="round"/>
+<use href="#leaflet" transform="translate(8 -29.0) rotate(-10) scale(0.74)"/>
+<use href="#leaflet" transform="translate(8 -38.0) rotate(21) scale(-0.74 0.74)"/>
+<use href="#leaflet" transform="translate(-7 -61.714285714285715) rotate(13) scale(0.85)"/>
+<use href="#leaflet" transform="translate(-7 -70.71428571428572) rotate(-2) scale(-0.85 0.85)"/>
+<use href="#leaflet" transform="translate(8 -94.42857142857143) rotate(-10) scale(0.96)"/>
+<use href="#leaflet" transform="translate(8 -103.42857142857143) rotate(21) scale(-0.96 0.96)"/>
+<use href="#leaflet" transform="translate(-7 -127.14285714285714) rotate(13) scale(0.74)"/>
+<use href="#leaflet" transform="translate(-7 -136.14285714285714) rotate(-2) scale(-0.74 0.74)"/>
+<use href="#leaflet" transform="translate(8 -159.85714285714286) rotate(-10) scale(0.85)"/>
+<use href="#leaflet" transform="translate(8 -168.85714285714286) rotate(21) scale(-0.85 0.85)"/>
+<use href="#leaflet" transform="translate(-7 -192.57142857142858) rotate(13) scale(0.96)"/>
+<use href="#leaflet" transform="translate(-7 -201.57142857142858) rotate(-2) scale(-0.96 0.96)"/>
+<use href="#leaflet" transform="translate(8 -225.28571428571428) rotate(-10) scale(0.74)"/>
+<use href="#leaflet" transform="translate(8 -234.28571428571428) rotate(21) scale(-0.74 0.74)"/>
+<use href="#leaflet" transform="translate(-7 -258.0) rotate(13) scale(0.85)"/>
+<use href="#leaflet" transform="translate(-7 -267.0) rotate(-2) scale(-0.85 0.85)"/>
+<use href="#leaflet" transform="translate(-33 -69) rotate(-10) scale(.72)"/>
+<use href="#leaflet" transform="translate(-33 -74) rotate(10) scale(-.65 .65)"/>
+<use href="#leaflet" transform="translate(-48 -119) rotate(22) scale(.72)"/>
+<use href="#leaflet" transform="translate(-48 -124) rotate(-22) scale(-.65 .65)"/>
+<use href="#leaflet" transform="translate(-41 -157) rotate(28) scale(.72)"/>
+<use href="#leaflet" transform="translate(-41 -162) rotate(-28) scale(-.65 .65)"/>
+<use href="#leaflet" transform="translate(38 -102) rotate(-25) scale(.72)"/>
+<use href="#leaflet" transform="translate(38 -107) rotate(25) scale(-.65 .65)"/>
+<use href="#leaflet" transform="translate(54 -155) rotate(-8) scale(.72)"/>
+<use href="#leaflet" transform="translate(54 -160) rotate(8) scale(-.65 .65)"/>
+<use href="#leaflet" transform="translate(43 -207) rotate(-4) scale(.72)"/>
+<use href="#leaflet" transform="translate(43 -212) rotate(4) scale(-.65 .65)"/>
+<path d="M2 -268Q30 -315 34 -287Q32 -273 23 -276M-44-154Q-78-196-82-170Q-76-159-69-169M46-209Q80-243 83-221Q80-209 72-216" stroke="#567550" stroke-width="1.5" stroke-linecap="round"/>
+<use href="#flower" transform="translate(-50 -172) rotate(-18) scale(0.66)"/>
+<use href="#flower" transform="translate(40 -227) rotate(20) scale(0.67)"/>
+<use href="#flower" transform="translate(13 -278) rotate(-4) scale(0.64)"/>
+<use href="#pod" transform="translate(-37 -92) rotate(20) scale(.78)"/>
+<use href="#pod" transform="translate(44 -147) rotate(-30) scale(.78)"/>
+<use href="#pod" transform="translate(4 -208) rotate(-8) scale(.78)"/>
+<path d="M-48-6L-37 57Q0 76 37 57L48-6Z" fill="url(#pot)" stroke="#7d6145" stroke-width="2"/><path d="M-53-12Q0-25 53-12L50 3Q0 17-50 3Z" fill="#dca67c" stroke="#7d6145" stroke-width="2"/><ellipse cy="-12" rx="52" ry="10" fill="#655d43" stroke="#7d6145" stroke-width="2"/><path d="M-46-12Q-6-21 44-13" stroke="#ab8e63"/><path d="M-32 14L-27 49M-23 18L-19 55M29 17L24 49" stroke="#f0bf93" stroke-width="2" opacity=".7"/><path d="M-38 30Q0 44 39 28" stroke="#a66d4b" stroke-width="1.2"/><rect x="-15" y="20" width="30" height="26" rx="2" fill="#eee3bc" stroke="#917953"/><path d="M0 40V28M0 34Q-10 35-9 27Q-2 25 0 34M0 31Q9 33 9 25Q1 24 0 31" stroke="#718358" stroke-width="1.3"/></g>
+<!-- Tools and a few packets waiting for the next experiment. -->
+<g transform="translate(793 435) rotate(7)" stroke="#546952" stroke-width="2"><path d="M11-20C42-58 67-16 47 2" stroke-width="8"/><path d="M-32-11L-70-38L-73-27L-37 9" fill="#9dac8d"/><path d="M-76-43L-67-40L-70-25L-81-29Z" fill="#b7c2a2"/><path d="M-30-16Q0-29 28-16L31 24Q0 38-30 22Z" fill="#9dac8d"/><ellipse cy="-16" rx="29" ry="9" fill="#bec9ac"/><ellipse cy="-16" rx="18" ry="5" fill="#576f53"/><path d="M-20-7V20M-14-5V23" stroke="#d1d9bc" stroke-width="3"/></g>
+<g transform="translate(167 434) rotate(-13)"><path d="M0 0H48V59H0Z" fill="#f2e4be" stroke="#8a815e" stroke-width="1.5"/><path d="M4 5H44M4 53H44" stroke="#baa77a"/><ellipse cx="24" cy="29" rx="14" ry="17" fill="#c7d0a3"/><path d="M24 42V19M24 29Q9 32 13 20Q24 19 24 29M24 34Q39 33 35 23Q25 23 24 34" stroke="#55774e" stroke-width="1.5"/></g>
+<g transform="translate(221 454) rotate(8)"><rect width="34" height="40" fill="#d5b67c" stroke="#8a815e" stroke-width="1.5"/><path d="M5 5H29M5 35H29" stroke="#947c53"/><circle cx="17" cy="20" r="8" fill="#f1dfb2"/><circle cx="13" cy="20" r="3" fill="#79965a"/><circle cx="20" cy="19" r="3" fill="#91a364"/></g>
+<g transform="translate(447 552)"><ellipse cx="55" cy="22" rx="90" ry="8" fill="#756b4e" opacity=".12"/><path d="M-20 4L2-8L120-3L128 14H-20Z" fill="#c6b88c" stroke="#7b7959" stroke-width="1.5"/><path d="M-20 4L128 14V25L-20 14Z" fill="#dcca9e" stroke="#7b7959" stroke-width="1.5"/><path d="M-14 7L120 16M-15 11L120 20" stroke="#f2e4be"/><path d="M3-8L10 7L10 18" stroke="#8e976c" stroke-width="9"/></g>
+<g stroke="#9b986e" stroke-width="1.5"><path d="M744 584L756 558L760 579M752 566L744 558M757 562L766 553"/><path d="M742 582Q764 592 775 578"/></g>
+<path d="M104 618Q249 638 422 624M597 624Q770 632 899 610" stroke="#bbb391" stroke-width="1.4"/>
+<rect width="1000" height="680" fill="url(#grain)" pointer-events="none" opacity=".3"/>
+</svg>

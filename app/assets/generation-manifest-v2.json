@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-10",
+  "tool": "built-in image_gen",
+  "reference": "app-design.png",
+  "assets": [
+    {
+      "file": "scenes-v2.png",
+      "type": "background-extraction",
+      "prompt": "Use case: background-extraction. This image is the approved UI reference for an educational mobile game. Create a production ENVIRONMENT SPRITE SHEET, NOT another UI mockup. Exactly THREE SQUARE tiles side by side edge-to-edge, final image aspect ratio 3:1, no gutters, each tile one third of width. Faithfully reproduce the reference painterly storybook gouache greenhouse art, warm ivory sunlight, old brass, moss foliage, pea blossoms, detailed matte surfaces. LEFT tile: same front entrance greenhouse arch seen on left reference screen, purple pea flowers wrapping frame, brass dark green mailbox on left, hanging blank wood sign at uppercenter, sleeping white cat right of stonepath, open path into greenhouse. Match framing, not closeup. CENTER tile: same experiment greenhouse interior background seen on middle reference screen, shallow depth of field foliage and soft greenhouse structure, honey brown weathered laboratory wooden bench filling bottom 25%, a stack of 3 small botanical books on lowerleft corner, a brass glass bulb atomizer on lowerright edge. CRITICAL CENTER tile completely EMPTY in central 70% width: NO potted pea plants, NO flowers in foreground, NO labels, so independent plant sprites will be rendered on the bench. RIGHT tile: same interior greenhouse from right reference screen with plants on shelving, white blossoms on left, watering can at lower right, wooden seed crate centerlower, leafy tendrils framing upperleft. ALL three tiles: NO UI, no navigation, no controls, no typography, no text. Reconstruct the scene where UI formerly covered it. Preserve the approved art direction, no photographic realism, no cartoon simplification. These are three seamless independent square game scene backdrops.",
+      "transparent": false
+    },
+    {
+      "file": "ui-atlas-v2.png",
+      "type": "background-extraction",
+      "prompt": "Use case: background-extraction. Create a production UI ATLAS of FOUR isolated game art assets from the reference, arranged exactly in a 2x2 grid of equally sized square cells, with generous transparent space between, true transparent alpha background. NO text or letters anywhere. Match reference cozy botanical storybook painting, natural textured paper and antique brass, muted cream olive gold. TOP LEFT cell: horizontal wide ivory paper closed envelope seen in reference left screen lower half, triangle-fold top flap, small round embossed bronze/gold sprout wax seal at upper middle, violet pea blossom spray tucked along left edge; leave lower envelope face empty for live heading. Envelope occupies 90% width and 65% height of its cell, centered. TOP RIGHT cell: one vintage brown paper rectangular seed packet, blank pale label center, folded tan paper seam across top, delicate creases, no drawings, no typography, height 86% cell, width 63% cell. BOTTOM LEFT cell: illustrated bronze mortar and pestle with three green pea seeds in front, exactly like reference home shortcut; centered object 75% cell. BOTTOM RIGHT cell: elegant chemistry flask with thin glass neck and small green leaves submerged in pale green liquid, exactly like reference home shortcut; centered object 75% cell. All four need clean full uncut edges, no shadows outside their cell. Do not add UI layout or generate a screenshot. This sheet will be used with CSS sprite positions, each quarter an independent asset.",
+      "transparent": true
+    },
+    {
+      "file": "peas-v2.png",
+      "type": "scientific-educational",
+      "prompt": "Use case: scientific-educational. Production asset sprite sheet for the pea genetics mobile game in reference. EXACTLY FOUR equal square cells in one HORIZONTAL row, total aspect ratio 4:1. True transparent background. In every cell ONE large mature pea SEED, not a plant, no leaves or sprouts. Cell1 yellow ROUND smooth seed, cell2 yellow WRINKLED seed, cell3 green ROUND smooth seed, cell4 green WRINKLED seed. Follow approved illustration in the rightmost reference UI: warm soft botanical oil/gouache rendered pea seeds with convincing round mass, yellow warm gold and green olive lime, subtle highlights, clear folds in wrinkled specimens, soft contact shadow and otherwise transparent. All seed images centered at same y and equally sized around 65% each cell height, completely separate, never overlap cells. No text, no cards, no borders, no background, no lab objects. Clear round versus wrinkled phenotype, no dents on smooth seeds and deep irregular creases on wrinkled ones.",
+      "transparent": true
+    },
+    {
+      "file": "vine-v2.png",
+      "type": "background-extraction",
+      "prompt": "Use case: background-extraction. Extract/reconstruct a SINGLE thin winding pea vine with leaves to decorate paper UI corners, matching exactly the botanical vine corner ornaments on the reference game screens. True transparent alpha. Portrait narrow composition: one very slender undulating stem running from lower left toward upperright, with 9-12 small distinct sage olive pea leaves and curling tendrils, a tiny white pea blossom near lowerthird, gentle natural asymmetry. Delicate watercolor/gouache painted details, subtle golden edge highlights, defined thin vein lines. Lots of transparent space between the leaves, not a dense hedge. No pot, no ground, no frame, no paper, no seeds, no text, no UI. Asset will be rendered at only 35px wide and 110px tall as an edge ornament. Do not generate a large scene.",
+      "transparent": true
+    }
+  ]
+}

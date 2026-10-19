@@ -1,0 +1,16 @@
+{
+  "name": "pea-post",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "build": "node build.cjs",
+    "serve": "python3 -m http.server 64312 --bind 127.0.0.1",
+    "test:browser": "node tests/playthrough.cjs && node tests/expansion.cjs && node tests/garden-playthrough.cjs && node tests/sampling-cap.cjs && node tests/polish.cjs && node tests/offline-layout.cjs",
+    "build:app": "node app/build.cjs",
+    "test:app-ui": "node tests/app-ui-polish.cjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.55.0"
+  }
+}
